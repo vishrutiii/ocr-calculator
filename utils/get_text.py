@@ -8,4 +8,5 @@ def get_text(filename : str = ""):
     """
     It will take the input filename, and extract the input the maths text from it.
     """
+    image = read_image(filename)
     return 2
