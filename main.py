@@ -1,8 +1,15 @@
 import sys
 import os
+import math
+import time
 
 import cv2
-import tessaract
-import tkinter
+from tkinter import *
 
-from read_image import read_image
+import utils
+from app import App
+
+if __name__ == '__main__':
+    root = Tk() # init the root 
+    title = "OCR-Calculator" # title of the porgram
+    App(root, title) # run the app
