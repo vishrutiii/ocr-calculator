@@ -162,6 +162,7 @@ class App:
             cv2.imwrite(filename,frame_) # save the file using opencv
             cv2.imshow("maths_",cv2.cvtColor(frame_, cv2.COLOR_BGR2RGB)) # show the saved image, and convert the BGR image to RGB image
             print("File saved ")
+            self.filename = filename
             
             
 # this function is used to get the frame and used to save the image
