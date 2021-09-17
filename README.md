@@ -1,10 +1,10 @@
 ## OCR-Calculator
 
 #### Task 1:
-- Read the image using OpenCV
+- [x] Read the image using OpenCV
 - [x] Make a Tkinter app to read the image
 - Make a raw file that consist of some trigonometric function, with their result.
-- Use Pytessact to extract the text from the image, and save it as string
+- [x] Use Pytessact to extract the text from the image, and save it as string
 - Make the functionality that take trigonometric function as input, and gives the result of that trigonometry functions.
 
         e.g 1 
