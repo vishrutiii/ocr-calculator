@@ -95,7 +95,8 @@ class App:
             file = None
         else:
             title = os.path.basename(file) + "- OCR-Calculator" # this will gives the title to the window
-            self.filename = os.path.basename(file)
+            self.filename = os.path.abspath(file)
+            print(self.filename)
             self.root.title(title)
             img_ = PIL.Image.open(file) # open the image
             img_ = img_.resize((self.canvas_width, self.canvas_height)) # reszie the image in the dimension of camvas_width*canvas_height
@@ -163,6 +164,7 @@ class App:
             cv2.imshow("maths_",cv2.cvtColor(frame_, cv2.COLOR_BGR2RGB)) # show the saved image, and convert the BGR image to RGB image
             print("File saved ")
             self.filename = filename
+            print(self.filename)
             
             
 # this function is used to get the frame and used to save the image
