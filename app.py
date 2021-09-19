@@ -89,14 +89,13 @@ class App:
             self.closeCamera() # it will close the camera
         
         global file
-        file = askopenfilename(defaultextension=".png", filetypes=[("All Files", "."), ("PNG Image","*.png")]) # askopenfilename is  tkinter function to open the required image
+        file = askopenfilename(defaultextension=".png", filetypes=[("JPG Image","*.jpg"), ("All Files", "."), ("PNG Image","*.png")]) # askopenfilename is  tkinter function to open the required image
         # if file is not selected then we define the image file is None
         if file == "":
             file = None
         else:
             title = os.path.basename(file) + "- OCR-Calculator" # this will gives the title to the window
             self.filename = os.path.abspath(file)
-            print(self.filename)
             self.root.title(title)
             img_ = PIL.Image.open(file) # open the image
             img_ = img_.resize((self.canvas_width, self.canvas_height)) # reszie the image in the dimension of camvas_width*canvas_height
@@ -184,10 +183,11 @@ def input_file(filename : str = ""):
     """
     It will take the input filename, and extract the input the maths text from it.
     """
-    utils.get_text.get_text(filename)
+    text, image =  utils.get_text.get_text(filename)
+    return text
 
 def get_output(input_text : str = ""):
     """
     It will take input as a string and return the output of the given input mathematics problem
     """
-    utils.solver.get_output(input_text)
+    return utils.solver.get_output(input_text)
