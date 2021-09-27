@@ -6,7 +6,8 @@ from numpy.lib.type_check import imag
 import pytesseract
 import PIL
 from PIL import Image
-from read_image import read_image
+from utils.read_image import read_image
+# from read_image import read_image
 import numpy as np
 import cv2
 

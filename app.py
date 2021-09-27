@@ -108,13 +108,16 @@ class App:
     # show output function it will show the output of the given input
     def showOutput(self):
         try:
-            start = time.time()
-            input_text = input_file(filename=self.filename)
+            # input_text = input_file(filename=self.filename)
+            input_text = "sin^2(x) + cos^2(x)"
+            print(input_text)
             output_text = get_output(input_text)
-            msgs.showinfo("Output", "The Input : {}\nThe Output is : {}".format(input_text,output_text)) # it will display our input and output
-            end = time.time()
-            print("Total Time Taken to get result : {}".format(start - end))
+            print(output_text)
+            text = "Input : " + str(input_text) + "\nOutput : " + str(output_text[0])
+            msgs.showinfo("Output",message=text ) # it will display our input and output
         except:
+            # input_text = input_file(filename=self.filename)
+            # print(input_text)
             msgs.showwarning("Error", "The program can't be executed.") # it will display when any error occur while getting the output.
 
     def openCamera(self):
@@ -190,4 +193,4 @@ def get_output(input_text : str = ""):
     """
     It will take input as a string and return the output of the given input mathematics problem
     """
-    return utils.solver.get_output(input_text)
+    return utils.solver.output(input_text)
