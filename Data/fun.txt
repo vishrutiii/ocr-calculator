@@ -2,3 +2,119 @@ Function, Input, Output
 Trigonometry, sin^2(x) + cos^2(x), 1
 Trigonometry, tan^2(x) + cot^2(x), 1
 Trigonometry, sec^2(x) + cosec^2(x), 1
+Trigonometry, sin^2(x), 1 − cos^2(x)
+Trigonometry, cos^2(X), 1 - sin^2(X)
+Trigonometry, sec^2(x), 1 - cosec^2(X)
+Trigonometry, cosec^2(x), 1 - sec^2(x)
+Trigonometry, tan^2(X), 1 - cot^2(x)
+Trigonometry, cot^2(x), 1 - tan^2(x)
+Trigonometry, sin(−x), −sin(x)
+Trigonometry, cos(−x), cos(x)
+Trigonometry, tan(−x), −tan(x)
+Trigonometry, cot(-x), -cot(x)
+Trigonometry, sec(-x), sec(x)
+Trigonometry, cosec(-x), -cosec(x)
+Trigonometry, -cosec(x), cosec(-x)
+Trigonometry, -tan(X), tan(-x)
+Trigonometry, -cot(x), cot(-x)
+Trigonometry, -sin(x), sin(-x)
+Trigonometry, tan(x), sin(x)/cos(x)
+Trigonometry, cot(x), cos(x)/sin(x)
+Trigonometry, sin(2x), 2sin(x)cos(x)
+Trigonometry, 2sin(X)cos(x), 2tan(X)/(1 + tan^2(x))
+Trigonometry, 2tan(X)/(1 + tan^2(x)), 2sin(x)cos(x)
+Trigonometry, 2sin(x)cos(x), sin(2x)
+Trigonometry, cos(2x), cos^2(x) - sin^2(x)
+Trigonometry, cos^2(x) - sin^2(x), 2cos^2(x) - 1
+Trigonometry, 2cos^2(x) - 1, 1 - 2sin^2(x)
+Trigonometry, 1 - 2sin^2(x), (1 - tan^2(x))/(1 + tan^2(x))
+Trigonometry, (1 - tan^2(x))/(1 + tan^2(x)), 1 - 2sin^2(x)
+Trigonometry, tan^2(x), 2tan(X)/(1 - tan^2(x))
+Trigonometry, 2tan(X)/(1 - tan^2(x)), tan^2(x)
+Trigonometry, sin(x/2), +- sqrt((1-cos(x))/2)
+Trigonometry, sqrt((1-cos(x))/2), sin(x/2)
+Trigonometry, -sqrt((1-cos(x))/2), sin(x/2)
+Trigonometry, cos(x/2), +- sqrt((1 + cos(x))/2)
+Trigonometry, sqrt((1 + cos(x))/2), cos(x/2)
+Trigonometry, sqrt((1 + cos(x))/2), cos(x/2)
+Trigonometry, tan(x/2), cosec(x) - cot(x)
+Trigonometry, cosec(x) - cot(x), (1 - cos(x))/sin(x)
+Trigonometry, (1 - cos(x))/sin(x), sin(x)/(1 + cos(x))
+Trigonometry, sin(x)/(1 + cos(x)), +-sqrt((1 - cos(x))/(1 + cos(X)))
+Trigonometry, sqrt((1 - cos(x))/(1 + cos(X))), tan(x/2)
+Trigonometry, -sqrt((1 - cos(x))/(1 + cos(X))), tan(x/2)
+Trigonometry, cot(x/2), cosec(x) + cot(X)
+Trigonometry, cosec(x) + cot(X), (1 + cos(x))/sin(x)
+Trigonometry, (1 + cos(x))/sin(x), sin(x)/(1 - cos(x))
+Trigonometry, sin(x)/(1 - cos(x)), +-sqrt((1 + cos(x))/(1 - cos(X)))
+Trigonometry, sqrt((1 + cos(x))/(1 - cos(X))), cot(x/2)
+Trigonometry, -sqrt((1 - cos(x))/(1 + cos(X))), cot(x/2)
+Trigonometry, sin(x + y), sin(x)sin(y) + cos(x)sin(y)
+Trigonometry, sin(x - y), sin(x)cos(y) - cos(x)sin(y)
+Trigonometry, sin(x)sin(y) + cos(x)sin(y), sin(x + y)
+Trigonometry, sin(x)cos(y) - cos(x)sin(y), sin(x - y)
+Trigonometry, cos(x + y), cos(x)cos(y) - sin(x)sin(y)
+Trigonometry, cos(x - y), cos(x)cos(y) + sin(x)sin(y)
+Trigonometry, cos(x)cos(y) - sin(x)sin(y), cos(x + y)
+Trigonometry, cos(x)cos(y) + sin(x)sin(y), cos(x - y)
+Trigonometry, tan(x + y), (tan(x) + tan(y))/(1 - tan(x)tan(y))
+Trigonometry, tan(x - y), (tan(x) - tan(y))/(1 + tan(x)tan(y))
+Trigonometry, (tan(x) + tan(y))/(1 - tan(x)tan(y)), tan(x + y)
+Trigonometry, (tan(x) - tan(y))/(1 + tan(x)tan(y)), tan(x - y)
+Trigonometry, cot(x + y), (cot(x)cot(y) - 1)/(cot(b) + cot(x))
+Trigonometry, cot(x - y), (cot(x)cot(y) + 1)/(cot(b) - cot(x))
+Trigonometry, (cot(x)cot(y) + 1)/(cot(b) - cot(x)), cot(x - y)
+Trigonometry, (cot(x)cot(y) - 1)/(cot(b) + cot(x)), cot(x + y)
+Trigonometry, sin(x) + sin(y), 2sin((x + y)/2).cos((x - y)/2)
+Trigonometry, 2sin((x + y)/2).cos((x - y)/2), sin(x) + sin(y)
+Trigonometry, cos(x) + cos(y), 2cos((x + y)/2).cos((x - y)/2)
+Trigonometry, 2cos((x + y)/2).cos((x - y)/2), cos(x) + cos(y)
+Trigonometry, sin(x)– sin(y), 2cos(x + y)/2 . sin(x - y)/2
+Trigonometry, 2cos(x + y)/2 . sin(x - y)/2, sin(x)– sin(y)
+Trigonometry, cos(x) – cos(y), -2Sin(x + y)/2 . sin(x - y)/2
+Trigonometry, -2sin(x + y)/2 . sin(x - y)/2, cos(x) - cos(y)
+Trigonometry, sin A + sin B, 2 sin(A+B)/2 . cos(A-B)/2
+Trigonometry, 2 sin(A+B)/2 . cos(A-B)/2, sin A + sin B
+Trigonometry, cos A + cos B, 2 cos(A+B)/2 . cos(A-B)/2
+Trigonometry, 2 cos(A+B)/2 . cos(A-B)/2, cos A + cos B
+Trigonometry, sin A – sin B, 2 cos(A+B)/2 . sin(A-B)/2
+Trigonometry, 2 cos(A+B)/2 . sin(A-B)/2, sin A – sin B
+Trigonometry, cos A – cos B, -2 sin(A+B)/2 . sin(A-B)/2
+Trigonometry, -2 sin(A+B)/2 . sin(A-B)/2, cos A – cos B
+Trigonometry, sin(A+B), sin(A).cos(B)+cos(A).sin(B)
+Trigonometry, sin(A–B), sinA.cosB–cosA.sinB
+Trigonometry, cos(A+B), cosA.cosB–sinA.sinB
+Trigonometry, cos(A–B), cosA.cosB+sinA.sinB
+Trigonometry, tan(A+B), tanA + tanB/(1 - tanA.tanB)
+Trigonometry, tan(A-B), tanA - tanB/(1 + tanA.tanB)
+Trigonometry, sin(x).sin(y), [cos(x - y) - cos(x + y)]/2
+Trigonometry, sin(x).cos(y), [sin(x+y) - sin(x-y)]/2
+Trigonometry, cos(x).cos(y), [cos(x + y) – cos(x – y)]/2
+Trigonometry, [cos(x - y) - cos(x + y)]/2, sin(x).sin(y)
+Trigonometry, [sin(x+y) - sin(x-y)]/2, sin(x).cos(y)
+Trigonometry, [cos(x + y) – cos(x – y)]/2, cos(x).cos(y)
+Trigonometry, sin A. sin B = [cos (A – B) – cos (A + B)]/2
+Trigonometry, sin A. cos B = [sin (A + B) – sin (A – B)]/2
+Trigonometry, cos A. cos B = [cos (A + B) – cos (A – B)]/2
+Trigonometry, (1 – sin A)/(1 + sin A), (sec A – tan A)^2
+Trigonometry, (1 – sin(x))/(1 + sin(x)), (sec(x) – tan(x))^2
+Trigonometry, (sec(x) – tan(x))^2, (1 – sin(x))/(1 + sin(x))
+Trigonometry, (sec A – tan A)^2, (1 – sin A)/(1 + sin A)
+Trigonometry, 1/(cosec A – cot A) – 1/sin A, 1/sin A – 1/(cosec A + cot A)
+Trigonometry, 1/sin A – 1/(cosec A + cot A), 1/(cosec A – cot A) – 1/sin A
+Trigonometry, 1/(cosec(x) – cot(x)) – 1/sin(x), 1/sin(x) – 1/(cosec(x) + cot(x))
+Trigonometry, 1/sin(x) – 1/(cosec(x) + cot(x)), 1/(cosec(x) – cot(x)) – 1/sin(x)
+Trigonometry, sec A (1 – sin A)(sec A + tan A), 1
+Trigonometry, sec(x)(1 – sin(x))(sec(x) + tan(x)), 1
+Trigonometry, (sin A + cosec A)^2 + (cos A + sec A)^2, 7 + tan^2A + cot^2A
+Trigonometry, (sin(x) + cosec(y))^2 + (cos(x) + sec(x))^2 = 7 + tan^2A + cot^2A
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
+Trigonometry, 
