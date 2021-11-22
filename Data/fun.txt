@@ -109,3 +109,4 @@ Trigonometry, sec(x)(1 – sin(x))(sec(x) + tan(x)), 1
 Trigonometry, (sin A + cosec A)^2 + (cos A + sec A)^2, 7 + tan^2A + cot^2A
 Trigonometry, (sin(x) + cosec(y))^2 + (cos(x) + sec(x))^2 = 7 + tan^2A + cot^2A
 
+
